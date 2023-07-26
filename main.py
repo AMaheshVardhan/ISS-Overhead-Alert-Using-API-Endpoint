@@ -38,7 +38,7 @@ def is_night():
         return True
 
 while True:
-    time.sleep(60)
+    time.sleep(86400)
     if is_overhead() and is_night():
         connection = smtplib.SMTP("smtp.gmail.com", timeout=30)
         connection.starttls()
