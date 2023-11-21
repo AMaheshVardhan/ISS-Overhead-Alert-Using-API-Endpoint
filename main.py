@@ -44,7 +44,3 @@ while True:
         connection.starttls()
         connection.login(MY_EMAIL, PASSWORD)
         connection.sendmail(MY_EMAIL, MY_EMAIL, msg="Subject:Look Up\n\n The ISS is above the sky")
-
-
-
-
